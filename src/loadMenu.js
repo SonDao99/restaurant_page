@@ -1,3 +1,10 @@
+import space_cheeseburger from './images/space_cheeseburger.jpg';
+import space_ramen from './images/space_ramen.jpg';
+import retro_meal from './images/retro_meal.jpg';
+import salad from './images/salad.jpg';
+import snack_pack from './images/snack_pack.jpg';
+import coffee from './images/coffee.jpg';
+
 function loadMenu() {
     let content = document.querySelector('#content');
 
@@ -15,27 +22,27 @@ function loadMenu() {
 
 
     const spaceCheeseburger = foodItem.cloneNode(true);
-    spaceCheeseburger.firstChild.src = '../src/images/space_cheeseburger.jpg';
+    spaceCheeseburger.firstChild.src = space_cheeseburger;
     spaceCheeseburger.lastChild.textContent = 'Space Cheeseburger with Tortilla Wrap';
 
     const spaceRamen = foodItem.cloneNode(true);
-    spaceRamen.firstChild.src = '../src/images/space_ramen.jpg';
+    spaceRamen.firstChild.src = space_ramen;
     spaceRamen.lastChild.textContent = 'Space Ramen in Plastic Package';
 
     const retroMeal = foodItem.cloneNode(true);
-    retroMeal.firstChild.src = '../src/images/retro_meal.jpg';
+    retroMeal.firstChild.src = retro_meal;
     retroMeal.lastChild.textContent = 'Retro Space Meal with Sandwich';
 
     const spaceSalad = foodItem.cloneNode(true);
-    spaceSalad.firstChild.src = '../src/images/salad.jpg';
+    spaceSalad.firstChild.src = salad;
     spaceSalad.lastChild.textContent = 'Space Salad';
 
     const snackPack = foodItem.cloneNode(true);
-    snackPack.firstChild.src = '../src/images/snack_pack.jpg';
+    snackPack.firstChild.src = snack_pack;
     snackPack.lastChild.textContent = 'Snack Pack with Crackers and Milk';
 
     const spaceCoffee = foodItem.cloneNode(true);
-    spaceCoffee.firstChild.src = '../src/images/coffee.jpg';
+    spaceCoffee.firstChild.src = coffee;
     spaceCoffee.lastChild.textContent = 'Space Coffee';
 
     content.appendChild(spaceCheeseburger);

@@ -1,6 +1,8 @@
 import loadHome from './loadHome';
 import loadMenu from './loadMenu';
 import loadContact from './loadContact';
+import './style.css';
+
 
 const navBar = document.createElement('div');
 navBar.classList.add('navBar');

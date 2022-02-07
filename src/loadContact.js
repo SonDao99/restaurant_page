@@ -1,3 +1,5 @@
+import hologram from './images/hologram.md';
+
 function loadContact() {
     let content = document.querySelector('#content');
 
@@ -9,7 +11,7 @@ function loadContact() {
     contactInfo.classList.add('imageAndContent');
 
     const img = document.createElement('img');
-    img.src = '../src/images/hologram.md';
+    img.src = hologram;
 
     const call = document.createElement('button');
     call.textContent = 'Hologram Call';

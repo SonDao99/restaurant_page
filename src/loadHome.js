@@ -1,3 +1,5 @@
+import space_burger from './images/space_burger.jpg'
+
 function loadHome() {
 
     let content = document.querySelector('#content');
@@ -7,7 +9,7 @@ function loadHome() {
     content.appendChild(header);
 
     const img = document.createElement('img');
-    img.src = "../src/images/space_burger.jpg";
+    img.src = space_burger;
     content.appendChild(img);
 
     const description = document.createElement('p');
