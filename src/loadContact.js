@@ -1,4 +1,4 @@
-import hologram from './images/hologram.md';
+import hologram from './images/hologram.png';
 
 function loadContact() {
     let content = document.querySelector('#content');
